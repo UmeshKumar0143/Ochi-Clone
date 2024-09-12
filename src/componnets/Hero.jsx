@@ -8,7 +8,7 @@ const Hero = () => {
         {["We Create","Eye-Opening","Presentations"].map((item,index)=>{
          return <div className=' flex items-center'>
           {index == 1 && <div className='h-[5vw] mt-4 w-[7.5vw] bg-red-500' ></div>}
-         <h1 className='text-[7vw] uppercase font-["Founders Grotesk X- Condensed"] font-bold tracking-tighter  leading-[7vw]'>{item}</h1>
+         <h1 className='text-[7vw] uppercase font-["Founders_Grotesk_X- Condensed"] font-bold tracking-tighter  leading-[7vw]'>{item}</h1>
          </div>
         })}
         </div>

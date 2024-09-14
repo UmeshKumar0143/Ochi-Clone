@@ -4,6 +4,7 @@ import Hero from './componnets/Hero'
 import Marquee from './componnets/Marquee'
 import About from './componnets/About'
 import Eyes from './componnets/Eyes'
+import Projects from './componnets/Projects'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Marquee/>
       <About/>
       <Eyes/>
+      <Projects/>
     </div>
   )
 }

@@ -42,7 +42,7 @@ const About = () => {
         <div className="flex w-[50%] flex-col gap-5 ml-28 ">
             <h1 className="text-5xl ">Our approach: </h1>
             <div className='buton-div flex  font-["Neue Montreal"] items-center gap-2'> 
-        <button className='px-5 border-2 flex  items-center gap-2 bg-black text-white border-zinc-700 rounded-full uppercase  py-2'>Read More<span className='-rotate-[45deg] border-zinc-700 border-2  rounded-full py-2 px-2'><FaArrowRight className='font-light text-lg' /></span></button>
+        <button className='pl-5 pr-2 border-2 flex  items-center gap-2 bg-black text-white border-zinc-700  rounded-full uppercase  py-2'>Read More<span className='-rotate-[45deg] border-zinc-700 border-2 bg-white rounded-full py-2 px-2 '><FaArrowRight className='font-light text-lg text-zinc-600' /></span></button>
         
         </div>
         </div>

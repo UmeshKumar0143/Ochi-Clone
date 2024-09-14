@@ -3,6 +3,7 @@ import Navbar from './componnets/Navbar'
 import Hero from './componnets/Hero'
 import Marquee from './componnets/Marquee'
 import About from './componnets/About'
+import Eyes from './componnets/Eyes'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero/>
       <Marquee/>
       <About/>
+      <Eyes/>
     </div>
   )
 }

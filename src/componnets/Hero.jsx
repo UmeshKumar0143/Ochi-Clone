@@ -1,13 +1,13 @@
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa'
-
+import {motion} from 'framer-motion'
 const Hero = () => {
   return (
     <div className=''>
-      <div className='mt-20 ml-16'>
+      <div className='mt-20 ml-16'> 
         {["We Create","Eye-Opening","Presentations"].map((item,index)=>{
          return <div className=' flex items-center'>
-          {index == 1 && <div className='h-[5vw] mt-4 w-[7.5vw] bg-red-500' ></div>}
+          {index == 1 && <motion.div initial ={{width: '0'}} animate ={{width: '7.5vw'}} transition={{ease:[0.76,0,0.24,1], duration:1 }} to className='h-[5vw] mt-4 w-[7.5vw] bg-red-500' ></motion.div>}
          <h1 className='text-[7vw] uppercase font-["Founders_Grotesk_X- Condensed"] font-bold tracking-tighter  leading-[7vw]'>{item}</h1>
          </div>
         })}

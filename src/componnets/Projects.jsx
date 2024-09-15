@@ -8,13 +8,16 @@ const Projects = () => {
         </div>
 
         <div className='projects-container-1 h-[40vw] w-full items-center px-4 gap-5 flex   '>
-            <div className='w-1/2 py-5 projects px-5 h-[40vw]' >
+            <div className='w-1/2 py-5 projects relative px-5 h-[40vw]' >
             <div className='Sub-heading flex items-center gap-2'>
             <div className='w-2 h-2 rounded-full bg-black'></div>
             <h6>Cardboard Spaceship</h6>
             </div>
+            <div className='Text absolute items-center justify-center  flex -translate-x-1/2 left-full top-1/2  bg-red-500 w-[25vw]  '>
+            {'Cardboard'.split("").map((item,index)=><span className='text-[#CDEA68] uppercase font-semibold font-["Neue Montreal"] text-5xl '>{item}</span>)}
+            </div>
             <div className='img py-5'>
-                    <img src="https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-663x551.png" alt="" />
+                    <img className='rounded-xl' src="https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-663x551.png" alt="" />
             </div>
             <div className="buttons gap-2 flex ">
             <button className='px-4  border-2 border-zinc-700 rounded-full uppercase text-sm  py-1'>Branded Template</button>
@@ -22,13 +25,13 @@ const Projects = () => {
             <button className='px-4 border-2 border-zinc-700 rounded-full uppercase  text-sm   py-1'>Social Media Templates</button>
             </div>
             </div>
-            <div className='w-1/2 py-5 projects px-5 h-[40vw]' >
+            <div className='w-1/2 py-5 projects-2 px-5 h-[40vw]' >
             <div className='Sub-heading flex items-center gap-2'>
             <div className='w-2 h-2 rounded-full bg-black'></div>
             <h6>AH2 & Matt Horn</h6>
             </div>
             <div className='img py-5'>
-                    <img src="https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-663x551.png" alt="" />
+                    <img className='rounded-xl' src="https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-663x551.png" alt="" />
             </div>
             <div className="buttons gap-2 flex ">
             <button className='px-4  border-2 border-zinc-700 rounded-full uppercase text-sm  py-1'>Pitch Deck</button>
@@ -43,7 +46,7 @@ const Projects = () => {
             <h6>FYDE</h6>
             </div>
             <div className='img py-5'>
-                    <img src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png" alt="" />
+                    <img className='rounded-xl' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png" alt="" />
             </div>
             <div className="buttons gap-2 flex ">
             <button className='px-4  border-2 border-zinc-700 rounded-full uppercase text-sm  py-1'>Audit</button>
@@ -58,7 +61,7 @@ const Projects = () => {
             <h6>VISE</h6>
             </div>
             <div className='img py-5'>
-                    <img src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg" alt="" />
+                    <img className='rounded-xl' src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg" alt="" />
             </div>
             <div className="buttons gap-2 flex ">
             <button className='px-4  border-2 border-zinc-700 rounded-full uppercase text-sm  py-1'>Agency</button>
